@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    border-style: border-box;
+}
+.container{
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    height: 400px;
+    width: 300px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10%;
+}
+.img{
+    background-image: url(/assets/images/avatar-jessica.jpeg);
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 7.5rem;
+    margin-top: 1rem;
+}
+
+.p1{
+    text-align: center;
+    font-weight: 700;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    margin-top: 1rem;
+}
+
+.p2{
+    color: yellow;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 0.6rem;
+    text-align: center;
+}
+.p3{
+    color: hsl(0, 0%, 50%);
+    font-weight: 600;
+    font-size: 10px;
+    margin-top: 1rem;
+    text-align: center;
+}
+.ids{  
+    height: 30px;
+    margin: 0.85rem 2rem 0.5rem 2rem;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-color: green;
+    border-radius: 7%;
+    
+    background-color: hsl(0, 0%, 20%)
+}
+a{
+    text-decoration: none;
+    color: rgb(228, 225, 225);
+    font-weight: 0;
+    font-size: 12px;
+}
