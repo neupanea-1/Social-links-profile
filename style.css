@@ -61,9 +61,12 @@
     
     background-color: hsl(0, 0%, 20%)
 }
-a{
+.a1{
     text-decoration: none;
     color: rgb(228, 225, 225);
     font-weight: 0;
     font-size: 12px;
+}
+footer{
+    text-align: center;
 }
