@@ -14,7 +14,7 @@
     height: 400px;
     width: 300px;
     background-color: hsl(0, 0%, 12%);
-    border-radius: 10%;
+    border-radius: 5%;
 }
 .img{
     background-image: url(/assets/images/avatar-jessica.jpeg);
@@ -53,19 +53,21 @@
 .ids{  
     height: 30px;
     margin: 0.85rem 2rem 0.5rem 2rem;
-    display: block;
+    display: grid;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     background-color: green;
     border-radius: 7%;
-    
     background-color: hsl(0, 0%, 20%)
 }
 .a1{
     text-decoration: none;
-    color: rgb(228, 225, 225);
-    font-weight: 0;
+    color: white;
+    font-weight: 400;
     font-size: 12px;
+}
+.ids:hover{
+    background-color: yellowgreen;
 }
 footer{
     text-align: center;
